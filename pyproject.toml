@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "yapwrap"
-version = "0.0.1a1"
+version = "0.0.1a2"
 description = "Framework-agnostic streaming voice pipeline for AI agents"
 readme = "README.md"
 license = "Apache-2.0"
