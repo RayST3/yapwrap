@@ -2,6 +2,11 @@ import hashlib
 import hmac
 import json
 
+import pytest
+
+pytest.importorskip("aiortc")
+pytest.importorskip("fastapi")
+
 from fastapi.testclient import TestClient
 
 from yapwrap.whatsapp import whatsapp_app
