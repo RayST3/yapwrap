@@ -42,6 +42,8 @@ your provider account; they do not promise a free tier.
 | [Standalone WebSocket](transports/websocket.py) | `uv run python -m examples.transports.websocket` | PCM16 WebSocket on port 8765; browser instructions below |
 | [WebRTC](transports/webrtc.py) | `uv run --extra webrtc python -m examples.transports.webrtc` | Open http://localhost:8000 |
 
+WhatsApp voice calls have their own guide: [whatsapp/README.md](whatsapp/README.md).
+
 Use one browser server at a time; both default to port 8000. FastAPI reload:
 
 ```powershell
