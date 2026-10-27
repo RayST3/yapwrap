@@ -9,8 +9,10 @@ from yapwrap.stt.speechmatics import SpeechmaticsSTT
 from yapwrap.stt.soniox import SonioxSTT
 from yapwrap.stt.gladia import GladiaSTT
 from yapwrap.stt.google_chirp import GoogleChirpSTT
+from yapwrap.stt.sherpa_onnx import SherpaOnnxSTT
 
 __all__ = [
+    "SherpaOnnxSTT",
     "BaseSTT",
     "DeepgramSTT",
     "AssemblyAISTT",

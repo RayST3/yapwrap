@@ -38,6 +38,7 @@ your provider account; they do not promise a free tier.
 | Transport | Run | Client |
 | --- | --- | --- |
 | [Local](transports/local.py) | `uv run python -m examples.transports.local` | Microphone, speakers, and terminal conversation |
+| [Offline local](transports/local_offline.py) | `uv run --extra sherpa --extra kyutai python -m examples.transports.local_offline` | Free, keyless sherpa-onnx STT + Kyutai TTS; set `SHERPA_MODEL_DIR` |
 | [FastAPI WebSocket](transports/fastapi_websocket.py) | `uv run python -m examples.transports.fastapi_websocket` | Open http://localhost:8000 |
 | [Standalone WebSocket](transports/websocket.py) | `uv run python -m examples.transports.websocket` | PCM16 WebSocket on port 8765; browser instructions below |
 | [WebRTC](transports/webrtc.py) | `uv run --extra webrtc python -m examples.transports.webrtc` | Open http://localhost:8000 |

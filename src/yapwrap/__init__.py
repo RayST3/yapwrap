@@ -39,5 +39,5 @@ __all__ = [
     "ConversationTurn",
 ]
 
-__version__ = "0.0.1a3"
+__version__ = "0.0.1a4"
 

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "yapwrap"
-version = "0.0.1a3"
+version = "0.0.1a4"
 description = "Framework-agnostic streaming voice pipeline for AI agents"
 readme = "README.md"
 license = "Apache-2.0"
@@ -30,6 +30,8 @@ deepgram = ["websockets>=13.0"]
 cartesia = ["websockets>=13.0"]
 openai = ["openai>=1.50.0", "websockets>=13.0"]
 elevenlabs = ["websockets>=13.0", "httpx>=0.27.0"]
+sherpa = ["sherpa-onnx>=1.10.0", "numpy>=1.24.0"]
+kyutai = ["pocket-tts", "numpy>=1.24.0"]
 all = [
     "numpy>=1.24.0",
     "websockets>=13.0",

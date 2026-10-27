@@ -11,8 +11,10 @@ from yapwrap.tts.rime import RimeTTS
 from yapwrap.tts.inworld import InworldTTS
 from yapwrap.tts.hume import HumeTTS
 from yapwrap.tts.sarvam import SarvamTTS
+from yapwrap.tts.kyutai import KyutaiTTS
 
 __all__ = [
+    "KyutaiTTS",
     "BaseTTS",
     "CartesiaTTS",
     "ElevenLabsTTS",
